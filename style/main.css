@@ -4,7 +4,7 @@
 
 body {
   /* change background colour here */
-  background-color: #1e1e1e;
+  background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,8 +15,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: calc(100% - 80px);
-  width: calc(100% - 80px);
   background-image: url("img/bg_img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -54,11 +52,6 @@ a {
 
   h1 {
     margin: 0 0 10% 0;
-  }
-
-  main {
-    height: calc(100% - 50px);
-    width: calc(100% - 50px);
   }
 
   span {
